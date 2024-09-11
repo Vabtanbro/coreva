@@ -1,2 +1,155 @@
-hy thre coreva here
-v2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon - Coreva</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="https://i.ibb.co/sgD2TNN/Blink-X-Smart-APi-Flowchart-2.png" type="image/png">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .coming-soon-container {
+            text-align: center;
+            margin: auto;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Stylized Coreva Name as Logo */
+        .coreva-logo {
+            font-size: 90px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            background: -webkit-linear-gradient(#ffde59, #fff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pulse 2s infinite;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 50px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 28px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #ffde59;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            color: #fff;
+            font-size: 14px;
+            opacity: 0.7;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.95);
+            }
+            70% {
+                transform: scale(1);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+            }
+            100% {
+                transform: scale(0.95);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .coreva-logo {
+                font-size: 60px;
+            }
+
+            .social-icons a {
+                font-size: 24px;
+            }
+        }
+    </style>
+
+    <!-- Font Awesome CDN for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="coming-soon-container">
+        <!-- Coreva Name as Logo -->
+        <!-- <div class="coreva-logo">Coreva</div> -->
+        <h1 id="coming-text">Coming Soon</h1>
+        <p>We're working hard to launch Coreva.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com/teamcoreva" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/teamcoreva" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/teamcoreva" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:contact@teamcoreva.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+
+    <!-- Footer on the right bottom corner -->
+    <footer>
+        &copy; 2024 Team Coreva
+    </footer>
+
+    <script>
+        // Optional JavaScript functionality can be added here
+        console.log("Coming Soon page loaded!");
+    </script>
+</body>
+</html>
